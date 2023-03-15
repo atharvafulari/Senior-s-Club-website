@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Senior's Club</title>
+    <style>
+        :root{
+            --color1:#05386B;
+            --color2:#379683;
+            --color3: #5cdb95;
+            --color4: #8ee4af;
+            --color5: #edf5e1;
+            --color6:black;
+            --color7:gray;
+        }
+        *{
+            background-color: var(--color6);
+        }
+        .mid {
+            color: var(--color2);
+        }        
+        .head{
+            border: 4px solid white;
+            border-radius: 40px;
+            display: flex;
+            justify-content: space-evenly;
+            /* background-color: var(--color5); */
+        }
+        .logo img{
+            
+            width: 113px;
+            height: 79px;
+        }
+        marquee h2{
+            display: inline;
+        }
+        marquee {
+            display: flex;
+            color: var(--color5);
+        }
+        /* marquee  */
+        .login{
+            width: 100px;
+            height: 50px;
+            margin: 10px;
+            /* color: var(--color1); */
+            background-color: var(--color2);
+            border-radius: 10px;
+            cursor: pointer;
+            
+        }
+        .login:hover{
+            color: var(--color5);
+            background-color: var(--color7);
+        }
+        .qualities{
+            /* border: 2px solid palevioletred; */
+            display: flex;
+            justify-content: space-evenly;
+        }
+        .first{
+            width: 400px;
+            height: 400px;
+            color: var(--color7);
+        }
+        .first img{
+            display: flex;
+            justify-content: center;
+            width: 170px;
+            height: 170px;
+            border-radius: 4px;
+        }
+        .first button{
+            color: black;
+            background-color: var(--color2);
+            border-radius: 40px;
+            cursor: pointer;
+        }
+        .first button:hover{
+            color: var(--color5);
+            background-color: var(--color7);
+        }
+        .features{
+            color: var(--color7);
+            border: 2px solid var(--color4);
+            border-radius: 40px;
+            display: flex;
+            margin: 50px;
+            padding: 20px;
+        }
+        .end button{
+            color: black;
+            background-color: var(--color2);
+            border-radius: 40px;
+            cursor: pointer;
+        }
+        .end button:hover{
+            color: var(--color5);
+            background-color: var(--color7);
+        }
+        .end div img{
+            border-radius: 40px;
+            margin: 20px;
+        }
+        h2{
+            color: snow;
+        }
+        /* .box{
+            animation-name: anime;
+            animation-duration: 10s;
+            animation-iteration-count: 1;
+            animation-fill-mode: forwards;
+            animation-timing-function: ease-in-out;
+        }
+        @keyframes anime{
+            from{
+                background-color: var(--color7);
+                opacity: 0.6;
+                width: 0px;
+                height: 200px;
+        
+            }
+            to{
+                background-color: var(--color2);
+                opacity: 1;
+                width: 400px;
+                height: 20px;
+                }
+                
+            }
+        } */
+        .end div{
+            color: var(--color7);
+        }
+        .end p{
+            color: var(--color7);
+        }
+        .end{display: flex;
+        justify-content: center;}
+        .end h1{
+            color: var(--color3);
+        }
+        
+        #foot
+        {
+            color: #379683;
+            display: flex;
+
+        }
+        #foot h2{
+            color: #379683;
+            padding: 2cm;        }
+        
+            .navbar {
+            background-color:blanchedalmond;
+            border-radius: 24px;
+            
+        }
+        .navbar
+        {
+            border: 5px solid var(--color5);
+            background-color: black;
+            margin: 20px;
+        }
+        .navbar li{
+            float: left;
+            list-style: none;
+            margin: 10px 5px;
+            
+
+        }
+        .navbar li a{
+            color: #5cdb95;
+            padding: 30px;
+            text-decoration: none;
+        }
+        .navbar li a:hover{
+            background-color:var(--color1);
+            border-radius: 50px;
+            color: var(--color4);
+        }
+        .navbar ul{
+            overflow: auto;
+        }
+        .search{
+            float: right;
+            color: #5cdb95;
+            /* padding: 10px 74px; */
+        }
+        #searchbar{
+            border: 2px solid seagreen;
+            border-radius: 14px;
+            /* padding: 3px; */
+        }
+    </style>
+</head>
+<body>
+    <header class="head">
+        <div class="logo"><img src="images/download (1).jpg" alt=""></div>
+        <div class="mid"><h1>Senior's Club</h1></div>
+        <button class="login">Login </button>
+        
+    </header>
+    <nav class="navbar">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact us</a></li>
+            <div class="search">
+                 Search bar
+                <input type="text" placeholder="Search here" id="searchbar">
+            </div>
+        </ul>
+    </nav>
+    <hr size="5" ><marquee ><h2>Senior's Club</h2>Platform for improvemnet </marquee><hr>
+    <section class="qualities">
+        <div class="first">
+            <img src="images/istockphoto-933911936-612x612.jpg">
+            <h2>Prepare for Placements</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste voluptatem error eum. Fugit, nihil repellendus!</p>
+            <button>Start Learning</button>
+
+        </div>
+        <div class="first">
+            <img src="images/istockphoto-519915153-612x612.jpg">
+            <h2>Compete with Best minds</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit cupiditate asperiores sequi culpa recusandae illo voluptatem accusantium natus harum tempora. Laudantium commodi doloribus fuga veniam provident nihil minus sed consequatur?</p>
+            <button>Compete</button>
+        </div>
+        <div class="first">
+            <img src="images/download.jpg">
+            <h2>Build Your projects</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit cupiditate asperiores sequi culpa recusandae illo voluptatem accusantium natus harum tempora. Laudantium commodi doloribus fuga veniam provident nihil minus sed consequatur?</p>
+            <button>Explore</button>
+        </div>
+        
+    </section>
+    
+    <section class="features">
+        <div class="box">
+            <h2>Access Courses</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita quibusdam provident, quae nihil, blanditiis inventore obcaecati corrupti autem illo tenetur nisi odio harum a minus tempore, sed cumque fuga suscipit.</p>
+        </div>
+        <div class="box">
+            <h2>Get notes</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita quibusdam provident, quae nihil, blanditiis inventore obcaecati corrupti autem illo tenetur nisi odio harum a minus tempore, sed cumque fuga suscipit.</p>
+        </div>
+        <div class="box">
+            <h2>Anytime SIGs</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita quibusdam provident, quae nihil, blanditiis inventore obcaecati corrupti autem illo tenetur nisi odio harum a minus tempore, sed cumque fuga suscipit.</p>
+        </div>
+        <div class="box">
+            <h2>Win Competitions</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita quibusdam provident, quae nihil, blanditiis inventore obcaecati corrupti autem illo tenetur nisi odio harum a minus tempore, sed cumque fuga suscipit.</p>
+        </div>
+    </section>
+    <section class="end">
+        <div><h1>Start Your learning with Senior's Club</h1><p>Get unlimited access to  courses & apply your concepts</p><button>Start Now</button></div>
+        
+        <div><img src="images/download (1).jpg" alt=""></div>
+    </section>
+        <hr size="5">
+    <footer id="foot">
+            <h2>Thank you for visiting our page</h2>
+            <ul class="list">
+                <li>Facebook</li>
+                <li>Instagram</li>
+                <li>Twitter</li>
+            </ul>
+            <ol class="list">
+                <li>Atharva Fulari </li>
+                
+            </ol>
+    </footer>
+       
+        
+    
+</body>
+</html>
